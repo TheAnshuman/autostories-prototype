@@ -1,0 +1,17 @@
+{
+  "name": "autostories-prototype",
+  "version": "1.0.0",
+  "description": "Automated YouTube content app that generates, packages, and publishes videos using AI-driven personas and parallel processing",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm start",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "keywords": ["youtube", "automation", "ai", "video-generation", "content-creation"],
+  "author": "",
+  "license": "MIT"
+}
